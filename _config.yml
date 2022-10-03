@@ -14,16 +14,19 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+after_footer_scripts:
+  - /assets/js/custom/dark-theme.js
+  
 # Site Settings
 locale                   : "en-US"
-title                    : "프로그래밍구_Bio/Data"
+title                    : "프로그래밍구_Data Analysis"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "프로그래밍구"
-description              : "🧬생명정보학 / 📊데이터분석 공부 블로그💻💻"
+description              : "🖌️데이터 시각화 / 📊데이터분석 / 🧬생명정보학 공부 블로그"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "nyamin9/Comment" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "nyamin9/Comment"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -42,8 +45,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-light" # "github-light" (default), "github-dark"
-    issue_term           : "pathname" # "pathname" (default)
+    theme                :  "github-light" #"github-dark"
+    issue_term           :  "pathname" 
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -105,7 +108,7 @@ analytics:
 author:
   name             : "Programin9"
   avatar           : 
-  bio              : "의공학도의 끼적끼적"
+  bio              : "의공학도의 데이터 분석 공부"
   location         : "South Korea"
   email            :
   links:
@@ -295,7 +298,3 @@ defaults:
       mathjax: true
       mathjax_autoNumber: true
       sidebar_main: true
-
-dark_theme_toggle        : true
-after_footer_scripts:
-  - /assets/js/custom/dark-theme.js
